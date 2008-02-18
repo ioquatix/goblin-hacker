@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* GHSavedGameDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* GHSavedGameDocument.mm */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C3307C920D18A6A90062A870 /* GHSkillsEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3307C910D18A6A90062A870 /* GHSkillsEditor.m */; };
+		C3307C940D18A8600062A870 /* skills.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3307C930D18A8600062A870 /* skills.plist */; };
+		C3307CF60D18C4110062A870 /* GHCharacterEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3307CF50D18C4110062A870 /* GHCharacterEditor.m */; };
+		C3307E6A0D19069B0062A870 /* InventoryBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3307E690D19069B0062A870 /* InventoryBackground.jpg */; };
+		C3307E710D1920F10062A870 /* GHApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3307E700D1920F10062A870 /* GHApplicationDelegate.m */; };
+		C3307F9F0D19CEBE0062A870 /* GoblinHackerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */; };
+		C33D5EF90D418AF300C7743C /* levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33D5EF80D418AF300C7743C /* levels.plist */; };
+		C33D5EFE0D418C7A00C7743C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33D5EFC0D418C7A00C7743C /* MainMenu.xib */; };
+		C33D5F470D421B0E00C7743C /* SWDataToString.m in Sources */ = {isa = PBXBuildFile; fileRef = C33D5F460D421B0E00C7743C /* SWDataToString.m */; };
+		C33D61700D45661000C7743C /* GHSpellsEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C33D616E0D45661000C7743C /* GHSpellsEditor.m */; };
+		C33D61730D45665500C7743C /* GHStatesEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C33D61720D45665500C7743C /* GHStatesEditor.m */; };
+		C33D61760D45666100C7743C /* states.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33D61740D45666100C7743C /* states.plist */; };
+		C33D61770D45666100C7743C /* spells.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33D61750D45666100C7743C /* spells.plist */; };
+		C33D61BC0D4573C400C7743C /* GHSavedGameDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33D61BB0D4573C400C7743C /* GHSavedGameDocument.xib */; };
+		C3497D910D599AEA00A8ACB8 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = C3497D8F0D599AEA00A8ACB8 /* next.png */; };
+		C3497D920D599AEA00A8ACB8 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = C3497D900D599AEA00A8ACB8 /* previous.png */; };
+		C3497D9F0D599EAB00A8ACB8 /* GHInventoryEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3497D9E0D599EAB00A8ACB8 /* GHInventoryEditor.mm */; };
+		C3497DA30D599F5300A8ACB8 /* GHItemEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3497DA10D599F5300A8ACB8 /* GHItemEditor.mm */; };
+		C3DD420F0D4FAEC50067F3AD /* item.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3DD420E0D4FAEC50067F3AD /* item.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* GHSavedGameDocument.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHSavedGameDocument.mm; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* GHSavedGameDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSavedGameDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* Goblin Hacker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Goblin Hacker_Prefix.pch"; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Goblin Hacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goblin Hacker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3307C900D18A6A90062A870 /* GHSkillsEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkillsEditor.h; sourceTree = "<group>"; };
+		C3307C910D18A6A90062A870 /* GHSkillsEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSkillsEditor.m; sourceTree = "<group>"; };
+		C3307C930D18A8600062A870 /* skills.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = skills.plist; path = Resources/skills.plist; sourceTree = "<group>"; };
+		C3307CF40D18C4110062A870 /* GHCharacterEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCharacterEditor.h; sourceTree = "<group>"; };
+		C3307CF50D18C4110062A870 /* GHCharacterEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCharacterEditor.m; sourceTree = "<group>"; };
+		C3307CF70D18C4210062A870 /* GHInventoryEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHInventoryEditor.h; sourceTree = "<group>"; };
+		C3307DD80D18E3D10062A870 /* Endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endian.h; sourceTree = "<group>"; };
+		C3307E690D19069B0062A870 /* InventoryBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = InventoryBackground.jpg; path = Resources/InventoryBackground.jpg; sourceTree = "<group>"; };
+		C3307E6F0D1920F10062A870 /* GHApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHApplicationDelegate.h; sourceTree = "<group>"; };
+		C3307E700D1920F10062A870 /* GHApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHApplicationDelegate.m; sourceTree = "<group>"; };
+		C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = GoblinHackerIcon.icns; path = Resources/GoblinHackerIcon.icns; sourceTree = "<group>"; };
+		C33D5EF80D418AF300C7743C /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = levels.plist; path = Resources/levels.plist; sourceTree = "<group>"; };
+		C33D5EFD0D418C7A00C7743C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C33D5F450D421B0E00C7743C /* SWDataToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDataToString.h; sourceTree = "<group>"; };
+		C33D5F460D421B0E00C7743C /* SWDataToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDataToString.m; sourceTree = "<group>"; };
+		C33D616E0D45661000C7743C /* GHSpellsEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSpellsEditor.m; sourceTree = "<group>"; };
+		C33D616F0D45661000C7743C /* GHSpellsEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSpellsEditor.h; sourceTree = "<group>"; };
+		C33D61710D45665500C7743C /* GHStatesEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHStatesEditor.h; sourceTree = "<group>"; };
+		C33D61720D45665500C7743C /* GHStatesEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHStatesEditor.m; sourceTree = "<group>"; };
+		C33D61740D45666100C7743C /* states.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = states.plist; path = Resources/states.plist; sourceTree = "<group>"; };
+		C33D61750D45666100C7743C /* spells.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = spells.plist; path = Resources/spells.plist; sourceTree = "<group>"; };
+		C33D61780D4566A100C7743C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSavedGameDocument.xib; sourceTree = "<group>"; };
+		C3497D8F0D599AEA00A8ACB8 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = Resources/next.png; sourceTree = "<group>"; };
+		C3497D900D599AEA00A8ACB8 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = previous.png; path = Resources/previous.png; sourceTree = "<group>"; };
+		C3497D9E0D599EAB00A8ACB8 /* GHInventoryEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHInventoryEditor.mm; sourceTree = "<group>"; };
+		C3497DA10D599F5300A8ACB8 /* GHItemEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHItemEditor.mm; sourceTree = "<group>"; };
+		C3497DA20D599F5300A8ACB8 /* GHItemEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHItemEditor.h; sourceTree = "<group>"; };
+		C3DD420E0D4FAEC50067F3AD /* item.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = item.plist; path = Resources/item.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Goblin Hacker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Goblin Hacker */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "Goblin Hacker";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3497D950D599D9B00A8ACB8 /* Editors */,
+				2A37F4AEFDCFA73011CA2CEA /* GHSavedGameDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* GHSavedGameDocument.mm */,
+				C3307E6F0D1920F10062A870 /* GHApplicationDelegate.h */,
+				C3307E700D1920F10062A870 /* GHApplicationDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C3307DD80D18E3D10062A870 /* Endian.h */,
+				32DBCF750370BD2300C91783 /* Goblin Hacker_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				C33D5F450D421B0E00C7743C /* SWDataToString.h */,
+				C33D5F460D421B0E00C7743C /* SWDataToString.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3497D8F0D599AEA00A8ACB8 /* next.png */,
+				C3497D900D599AEA00A8ACB8 /* previous.png */,
+				C33D5EFC0D418C7A00C7743C /* MainMenu.xib */,
+				C33D61BB0D4573C400C7743C /* GHSavedGameDocument.xib */,
+				C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */,
+				C3DD420E0D4FAEC50067F3AD /* item.plist */,
+				C33D5EF80D418AF300C7743C /* levels.plist */,
+				C3307C930D18A8600062A870 /* skills.plist */,
+				C33D61740D45666100C7743C /* states.plist */,
+				C33D61750D45666100C7743C /* spells.plist */,
+				C3307E690D19069B0062A870 /* InventoryBackground.jpg */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3497D950D599D9B00A8ACB8 /* Editors */ = {
+			isa = PBXGroup;
+			children = (
+				C3307C900D18A6A90062A870 /* GHSkillsEditor.h */,
+				C3307C910D18A6A90062A870 /* GHSkillsEditor.m */,
+				C33D616F0D45661000C7743C /* GHSpellsEditor.h */,
+				C33D616E0D45661000C7743C /* GHSpellsEditor.m */,
+				C33D61710D45665500C7743C /* GHStatesEditor.h */,
+				C33D61720D45665500C7743C /* GHStatesEditor.m */,
+				C3307CF40D18C4110062A870 /* GHCharacterEditor.h */,
+				C3307CF50D18C4110062A870 /* GHCharacterEditor.m */,
+				C3307CF70D18C4210062A870 /* GHInventoryEditor.h */,
+				C3497D9E0D599EAB00A8ACB8 /* GHInventoryEditor.mm */,
+				C3497DA20D599F5300A8ACB8 /* GHItemEditor.h */,
+				C3497DA10D599F5300A8ACB8 /* GHItemEditor.mm */,
+			);
+			name = Editors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Goblin Hacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Goblin Hacker" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goblin Hacker";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Goblin Hacker";
+			productReference = 8D15AC370486D014006FF6A4 /* Goblin Hacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Goblin Hacker" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Goblin Hacker */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Goblin Hacker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				C3307C940D18A8600062A870 /* skills.plist in Resources */,
+				C3307E6A0D19069B0062A870 /* InventoryBackground.jpg in Resources */,
+				C3307F9F0D19CEBE0062A870 /* GoblinHackerIcon.icns in Resources */,
+				C33D5EF90D418AF300C7743C /* levels.plist in Resources */,
+				C33D5EFE0D418C7A00C7743C /* MainMenu.xib in Resources */,
+				C33D61760D45666100C7743C /* states.plist in Resources */,
+				C33D61770D45666100C7743C /* spells.plist in Resources */,
+				C33D61BC0D4573C400C7743C /* GHSavedGameDocument.xib in Resources */,
+				C3DD420F0D4FAEC50067F3AD /* item.plist in Resources */,
+				C3497D910D599AEA00A8ACB8 /* next.png in Resources */,
+				C3497D920D599AEA00A8ACB8 /* previous.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* GHSavedGameDocument.mm in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				C3307C920D18A6A90062A870 /* GHSkillsEditor.m in Sources */,
+				C3307CF60D18C4110062A870 /* GHCharacterEditor.m in Sources */,
+				C3307E710D1920F10062A870 /* GHApplicationDelegate.m in Sources */,
+				C33D5F470D421B0E00C7743C /* SWDataToString.m in Sources */,
+				C33D61700D45661000C7743C /* GHSpellsEditor.m in Sources */,
+				C33D61730D45665500C7743C /* GHStatesEditor.m in Sources */,
+				C3497D9F0D599EAB00A8ACB8 /* GHInventoryEditor.mm in Sources */,
+				C3497DA30D599F5300A8ACB8 /* GHItemEditor.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C33D5EFC0D418C7A00C7743C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33D5EFD0D418C7A00C7743C /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C33D61BB0D4573C400C7743C /* GHSavedGameDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33D61780D4566A100C7743C /* English */,
+			);
+			name = GHSavedGameDocument.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goblin Hacker_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Goblin Hacker";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goblin Hacker_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Goblin Hacker";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Goblin Hacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Goblin Hacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

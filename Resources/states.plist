@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Offset</key>
+		<string>42</string>
+		<key>State</key>
+		<string>Stunned</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>44</string>
+		<key>State</key>
+		<string>Air Shielded</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>46</string>
+		<key>State</key>
+		<string>Poisoned</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>48</string>
+		<key>State</key>
+		<string>Enchanted Weapon</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>50</string>
+		<key>State</key>
+		<string>Entangled</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>52</string>
+		<key>State</key>
+		<string>Cat's Eyes</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>54</string>
+		<key>State</key>
+		<string>Gravedigger's Flame</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>56</string>
+		<key>State</key>
+		<string>Blessed</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>58</string>
+		<key>State</key>
+		<string>Haste</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>60</string>
+		<key>State</key>
+		<string>Ogre Strength</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>62</string>
+		<key>State</key>
+		<string>Invisible</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>64</string>
+		<key>State</key>
+		<string>Leatherskin</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>66</string>
+		<key>State</key>
+		<string>Nimbleness</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>68</string>
+		<key>State</key>
+		<string>Charmed</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>70</string>
+		<key>State</key>
+		<string>Reveal Map</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>72</string>
+		<key>State</key>
+		<string>Stoneskin</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>74</string>
+		<key>State</key>
+		<string>Keensight</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>76</string>
+		<key>State</key>
+		<string>Paralyzed</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>78</string>
+		<key>State</key>
+		<string>Scared</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>80</string>
+		<key>State</key>
+		<string>Enkindled Weapon</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>82</string>
+		<key>State</key>
+		<string>Elemental Armor</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>84</string>
+		<key>State</key>
+		<string>Chameleon</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>86</string>
+		<key>State</key>
+		<string>Predator Sight</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>88</string>
+		<key>State</key>
+		<string>Off-Balance</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>90</string>
+		<key>State</key>
+		<string>Mana-Fortified</string>
+	</dict>
+	<dict>
+		<key>Offset</key>
+		<string>92</string>
+		<key>State</key>
+		<string>Greater Protection</string>
+	</dict>
+</array>
+</plist>

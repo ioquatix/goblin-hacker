@@ -7,18 +7,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "GHSavedGameDocument.h"
+#import "GHEditorController.h"
 
-@interface GHSpellsEditor : NSObject {
+@interface GHSpellsEditor : GHEditorController {
 	IBOutlet NSTableView * spellsTable;
-	IBOutlet GHSavedGameDocument * document;
-	IBOutlet NSWindow * window;
-	IBOutlet NSView * spellsEditorView;
 }
 
 - (IBAction) giveDivinitySpells: (id)sender;
 - (IBAction) giveElementalSpells: (id)sender;
-- (IBAction) show: (id)sender;
 + (NSArray*) spells;
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView;
@@ -26,8 +22,4 @@
 
 - (void)tableView:(NSTableView *)tableView setObjectValue:(id)object forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
 
-@property (retain) NSView * spellsEditorView;
-@property (retain) GHSavedGameDocument * document;
-@property (retain) NSTableView * spellsTable;
-@property (retain) NSWindow * window;
 @end

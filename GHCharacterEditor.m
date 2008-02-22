@@ -12,15 +12,19 @@
 @implementation GHCharacterEditor
 
 - (void) awakeFromNib {
-	[self show:self];
+	if (window)
+		[self showPrimaryEditor:self];
+	
+	[super awakeFromNib];
 }
 
-- (IBAction) show: (id)sender {
-	[window setContentSize:[characterEditorView frame].size];
-	[window setContentView:characterEditorView];
+- (void) awakeFromEditor {
+	fixedSize = [primaryEditorView bounds].size;
 }
 
-@synthesize window;
-@synthesize characterEditorView;
-@synthesize document;
+- (IBAction) showPrimaryEditor: (id)sender {
+	[window setContentSize:fixedSize];
+	[window setContentView:primaryEditorView];
+}
+
 @end

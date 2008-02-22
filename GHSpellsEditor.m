@@ -6,6 +6,7 @@
 
 #import "GHSpellsEditor.h"
 
+#import "GHSavedGameDocument+Character.h"
 
 @implementation GHSpellsEditor
 	
@@ -21,8 +22,7 @@
 	return spells;
 }
 
-- (void) awakeFromNib {
-	// NSLog (@"Setting up spells table... %@", [[self class] spells]);
+- (void) awakeFromEditor {
 	[spellsTable setDataSource: self];
 	[spellsTable reloadData];
 }
@@ -97,12 +97,4 @@
    [spellsTable reloadData];
 }
 
-- (IBAction) show: (id)sender {	
-	[window setContentView:spellsEditorView];
-}
-
-@synthesize spellsTable;
-@synthesize document;
-@synthesize window;
-@synthesize spellsEditorView;
 @end

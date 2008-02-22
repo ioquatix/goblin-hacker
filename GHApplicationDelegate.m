@@ -17,6 +17,7 @@
 
 - (void) editGame: (NSString*)path {
 	NSURL * url = [NSURL fileURLWithPath:path];
+	NSLog (@"Opening file %@", url);
 	NSError * err = nil;
 	[[NSDocumentController sharedDocumentController] openDocumentWithContentsOfURL:url display:YES error:&err];
 	
@@ -57,11 +58,12 @@
 			[games addObject:props];
 		}
 	}
-	
-	//NSLog(@"Games found:");
-	//for (NSDictionary * d in games) {
-	//	NSLog(@"Game found: %@", [d objectForKey:@"name"]);
-	//}
+	/*
+	NSLog(@"Games found:");
+	for (NSDictionary * d in games) {
+		NSLog(@"Game found: %@", [d objectForKey:@"name"]);
+	}
+	*/
 	
 	return games;
 }

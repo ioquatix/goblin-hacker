@@ -7,16 +7,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "GHSavedGameDocument.h"
+#import "GHEditorController.h"
 
-@interface GHStatesEditor : NSObject {
+@interface GHStatesEditor : GHEditorController {
 	IBOutlet NSTableView * statesTable;
-	IBOutlet GHSavedGameDocument * document;
-	IBOutlet NSWindow * window;
-	IBOutlet NSView * statesEditorView;
 }
 
-- (IBAction) show: (id)sender;
 + (NSArray*) states;
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView;
@@ -31,8 +27,4 @@
 - (IBAction)bless: (id)sender;
 - (IBAction)uncurse: (id)sender;
 
-@property (retain) NSView * statesEditorView;
-@property (retain) NSTableView * statesTable;
-@property (retain) NSWindow * window;
-@property (retain) GHSavedGameDocument * document;
 @end

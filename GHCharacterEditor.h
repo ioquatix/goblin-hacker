@@ -8,17 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "GHSavedGameDocument.h"
+#import "GHEditorController.h"
 
-@interface GHCharacterEditor : NSObject {
-	IBOutlet GHSavedGameDocument * document;
-	IBOutlet NSWindow * window;
-	IBOutlet NSView * characterEditorView;
+@interface GHCharacterEditor : GHEditorController {
+	NSSize fixedSize;
 }
 
-- (IBAction) show: (id)sender;
-
-@property (retain) NSWindow * window;
-@property (retain) NSView * characterEditorView;
-@property (retain) GHSavedGameDocument * document;
 @end

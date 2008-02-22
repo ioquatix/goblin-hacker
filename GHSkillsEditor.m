@@ -8,9 +8,10 @@
 
 #import "GHSkillsEditor.h"
 
+#import "GHSavedGameDocument+Character.h"
 
 @implementation GHSkillsEditor
-	
+
 + (NSArray*) skills 
 {
 	static NSArray * skills = nil;
@@ -23,8 +24,7 @@
 	return skills;
 }
 
-- (void) awakeFromNib {
-	//NSLog (@"Setting up skills table... %@", [[self class] skills]);
+- (void) awakeFromEditor {
 	[skillsTable setDataSource: self];
 	[skillsTable reloadData];
 }
@@ -35,7 +35,6 @@
 
 - (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
 	if ([@"Value" isEqualTo:[tableColumn identifier]]) {
-		// 9 is the offset in the stat table for skills
 		return [NSNumber numberWithInt:[document characterStat:SKILL_OFFSET + row]];
 	} else {
 		return [[[self class] skills] objectAtIndex:row];
@@ -44,19 +43,9 @@
 
 - (void)tableView:(NSTableView *)tableView setObjectValue:(id)object forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
 	if ([@"Value" isEqualTo:[tableColumn identifier]]) {
-		// 9 is the offset in the stat table for skills
-		int val = [object intValue];
 		[[[document undoManager] prepareWithInvocationTarget:tableView] reloadData];
-		[document setCharacterStat:SKILL_OFFSET + row to:val];
+		[document setCharacterStat:SKILL_OFFSET + row to:[object intValue]];
 	}	
 }
 
-- (IBAction) show: (id)sender {	
-	[window setContentView:skillsEditorView];
-}
-
-@synthesize window;
-@synthesize skillsTable;
-@synthesize skillsEditorView;
-@synthesize document;
 @end

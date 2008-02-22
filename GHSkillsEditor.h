@@ -8,18 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "GHSavedGameDocument.h"
+#import "GHEditorController.h"
 
-#define SKILL_OFFSET 9
+enum {
+	SKILL_OFFSET = 9
+};
 
-@interface GHSkillsEditor : NSObject {
+@interface GHSkillsEditor : GHEditorController {
 	IBOutlet NSTableView * skillsTable;
-	IBOutlet GHSavedGameDocument * document;
-	IBOutlet NSWindow * window;
-	IBOutlet NSView * skillsEditorView;
 }
 
-- (IBAction) show: (id)sender;
 + (NSArray*) skills;
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView;
@@ -27,8 +25,4 @@
 
 - (void)tableView:(NSTableView *)tableView setObjectValue:(id)object forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
 
-@property (retain) NSView * skillsEditorView;
-@property (retain) NSTableView * skillsTable;
-@property (retain) GHSavedGameDocument * document;
-@property (retain) NSWindow * window;
 @end

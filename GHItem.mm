@@ -191,11 +191,13 @@
 
 - (void) setIdentified: (BOOL)to {
 	if (to) {
+		NSLog(@"Setting to identified");
 		[self setKnown:1];
 		[self setOccurrence:1];
 	} else {
+		NSLog(@"Setting to unidentified");
 		[self setKnown:0];
-		[self setOccurrence:4];
+		[self setOccurrence:9];
 	}
 }
 

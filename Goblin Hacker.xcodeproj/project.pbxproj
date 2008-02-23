@@ -15,13 +15,18 @@
 		C3307C920D18A6A90062A870 /* GHSkillsEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3307C910D18A6A90062A870 /* GHSkillsEditor.m */; };
 		C3307C940D18A8600062A870 /* skills.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3307C930D18A8600062A870 /* skills.plist */; };
 		C3307CF60D18C4110062A870 /* GHCharacterEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3307CF50D18C4110062A870 /* GHCharacterEditor.m */; };
-		C3307E6A0D19069B0062A870 /* InventoryBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3307E690D19069B0062A870 /* InventoryBackground.jpg */; };
 		C3307E710D1920F10062A870 /* GHApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3307E700D1920F10062A870 /* GHApplicationDelegate.m */; };
 		C3307F9F0D19CEBE0062A870 /* GoblinHackerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */; };
 		C3373A7F0D6F96C80053EE4D /* ItemEditorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3373A7E0D6F96C80053EE4D /* ItemEditorIcon.icns */; };
 		C3373A820D6F9C630053EE4D /* SpellsEditorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3373A810D6F9C630053EE4D /* SpellsEditorIcon.icns */; };
 		C3373A860D6FA0D10053EE4D /* InventoryEditorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3373A850D6FA0D10053EE4D /* InventoryEditorIcon.icns */; };
 		C3373A890D6FA43F0053EE4D /* SkillsEditorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3373A880D6FA43F0053EE4D /* SkillsEditorIcon.icns */; };
+		C3373AC90D6FACC90053EE4D /* GHInventoryEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3373ABD0D6FACC90053EE4D /* GHInventoryEditor.xib */; };
+		C3373ACA0D6FACC90053EE4D /* GHCharacterEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3373ABF0D6FACC90053EE4D /* GHCharacterEditor.xib */; };
+		C3373ACB0D6FACC90053EE4D /* GHItemEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3373AC10D6FACC90053EE4D /* GHItemEditor.xib */; };
+		C3373ACC0D6FACC90053EE4D /* GHSkillsEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3373AC30D6FACC90053EE4D /* GHSkillsEditor.xib */; };
+		C3373ACD0D6FACC90053EE4D /* GHSpellsEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3373AC50D6FACC90053EE4D /* GHSpellsEditor.xib */; };
+		C3373ACE0D6FACC90053EE4D /* GHStatesEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3373AC70D6FACC90053EE4D /* GHStatesEditor.xib */; };
 		C33D5EF90D418AF300C7743C /* levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33D5EF80D418AF300C7743C /* levels.plist */; };
 		C33D5EFE0D418C7A00C7743C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33D5EFC0D418C7A00C7743C /* MainMenu.xib */; };
 		C33D5F470D421B0E00C7743C /* SWDataToString.m in Sources */ = {isa = PBXBuildFile; fileRef = C33D5F460D421B0E00C7743C /* SWDataToString.m */; };
@@ -30,9 +35,6 @@
 		C33D61760D45666100C7743C /* states.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33D61740D45666100C7743C /* states.plist */; };
 		C33D61770D45666100C7743C /* spells.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33D61750D45666100C7743C /* spells.plist */; };
 		C33D61BC0D4573C400C7743C /* GHSavedGameDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33D61BB0D4573C400C7743C /* GHSavedGameDocument.xib */; };
-		C3458B1D0D6983980056C214 /* GHCharacterEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3458B1B0D6983980056C214 /* GHCharacterEditor.xib */; };
-		C3458B4F0D698A4D0056C214 /* GHStatesEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3458B4D0D698A4D0056C214 /* GHStatesEditor.xib */; };
-		C3458B5D0D698B8E0056C214 /* GHInventoryEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3458B5B0D698B8E0056C214 /* GHInventoryEditor.xib */; };
 		C3458B810D69909A0056C214 /* InventoryBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3458B800D69909A0056C214 /* InventoryBackground.jpg */; };
 		C3458B890D6A0B690056C214 /* GHItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3458B880D6A0B690056C214 /* GHItem.mm */; };
 		C3458BDD0D6A9C770056C214 /* GHSavedGameDocument+Slots.m in Sources */ = {isa = PBXBuildFile; fileRef = C3458BDC0D6A9C770056C214 /* GHSavedGameDocument+Slots.m */; };
@@ -41,16 +43,13 @@
 		C37713C40D6D0738004DC552 /* NSData+Values.mm in Sources */ = {isa = PBXBuildFile; fileRef = C37713C30D6D0738004DC552 /* NSData+Values.mm */; };
 		C37715280D6D4248004DC552 /* GHItem+Names.m in Sources */ = {isa = PBXBuildFile; fileRef = C37715270D6D4248004DC552 /* GHItem+Names.m */; };
 		C37715540D6D4A20004DC552 /* GHItemEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3497DA10D599F5300A8ACB8 /* GHItemEditor.mm */; };
-		C37715780D6D4D4D004DC552 /* GHItemEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37715760D6D4D4D004DC552 /* GHItemEditor.xib */; };
 		C37715CE0D6D617A004DC552 /* StatesEditorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C37715CD0D6D617A004DC552 /* StatesEditorIcon.png */; };
 		C37715D20D6D62E4004DC552 /* Reload.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C37715CF0D6D62E4004DC552 /* Reload.tiff */; };
 		C37715D30D6D62E4004DC552 /* Save.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C37715D00D6D62E4004DC552 /* Save.tiff */; };
 		C37715D40D6D62E4004DC552 /* Debug.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C37715D10D6D62E4004DC552 /* Debug.tiff */; };
 		C37715D60D6D63C6004DC552 /* CharacterEditorIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C37715D50D6D63C6004DC552 /* CharacterEditorIcon.tiff */; };
 		C37716340D6D783D004DC552 /* Gradient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C37716330D6D783D004DC552 /* Gradient.pdf */; };
-		C389534F0D696E890089C07A /* GHSpellsEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C389534D0D696E890089C07A /* GHSpellsEditor.xib */; };
 		C38953530D696EFA0089C07A /* GHEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38953520D696EFA0089C07A /* GHEditorController.m */; };
-		C38953DB0D69791F0089C07A /* GHSkillsEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38953D90D69791F0089C07A /* GHSkillsEditor.xib */; };
 		C3DD420F0D4FAEC50067F3AD /* item.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3DD420E0D4FAEC50067F3AD /* item.plist */; };
 /* End PBXBuildFile section */
 
@@ -74,7 +73,6 @@
 		C3307CF50D18C4110062A870 /* GHCharacterEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCharacterEditor.m; sourceTree = "<group>"; };
 		C3307CF70D18C4210062A870 /* GHInventoryEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHInventoryEditor.h; sourceTree = "<group>"; };
 		C3307DD80D18E3D10062A870 /* Endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endian.h; sourceTree = "<group>"; };
-		C3307E690D19069B0062A870 /* InventoryBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = InventoryBackground.jpg; path = Resources/InventoryBackground.jpg; sourceTree = "<group>"; };
 		C3307E6F0D1920F10062A870 /* GHApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHApplicationDelegate.h; sourceTree = "<group>"; };
 		C3307E700D1920F10062A870 /* GHApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHApplicationDelegate.m; sourceTree = "<group>"; };
 		C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = GoblinHackerIcon.icns; path = Resources/GoblinHackerIcon.icns; sourceTree = "<group>"; };
@@ -82,6 +80,12 @@
 		C3373A810D6F9C630053EE4D /* SpellsEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SpellsEditorIcon.icns; path = Resources/Icons/SpellsEditorIcon.icns; sourceTree = "<group>"; };
 		C3373A850D6FA0D10053EE4D /* InventoryEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = InventoryEditorIcon.icns; path = Resources/Icons/InventoryEditorIcon.icns; sourceTree = "<group>"; };
 		C3373A880D6FA43F0053EE4D /* SkillsEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SkillsEditorIcon.icns; path = Resources/Icons/SkillsEditorIcon.icns; sourceTree = "<group>"; };
+		C3373ABE0D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHInventoryEditor.xib; sourceTree = "<group>"; };
+		C3373AC00D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHCharacterEditor.xib; sourceTree = "<group>"; };
+		C3373AC20D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHItemEditor.xib; sourceTree = "<group>"; };
+		C3373AC40D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSkillsEditor.xib; sourceTree = "<group>"; };
+		C3373AC60D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSpellsEditor.xib; sourceTree = "<group>"; };
+		C3373AC80D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHStatesEditor.xib; sourceTree = "<group>"; };
 		C33D5EF80D418AF300C7743C /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = levels.plist; path = Resources/levels.plist; sourceTree = "<group>"; };
 		C33D5EFD0D418C7A00C7743C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C33D5F450D421B0E00C7743C /* SWDataToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDataToString.h; sourceTree = "<group>"; };
@@ -93,9 +97,6 @@
 		C33D61740D45666100C7743C /* states.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = states.plist; path = Resources/states.plist; sourceTree = "<group>"; };
 		C33D61750D45666100C7743C /* spells.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = spells.plist; path = Resources/spells.plist; sourceTree = "<group>"; };
 		C33D61780D4566A100C7743C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSavedGameDocument.xib; sourceTree = "<group>"; };
-		C3458B1C0D6983980056C214 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../Goblin Hacker/English.lproj/GHCharacterEditor.xib"; sourceTree = SOURCE_ROOT; };
-		C3458B4E0D698A4D0056C214 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../Goblin Hacker/English.lproj/GHStatesEditor.xib"; sourceTree = SOURCE_ROOT; };
-		C3458B5C0D698B8E0056C214 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../Goblin Hacker/English.lproj/GHInventoryEditor.xib"; sourceTree = SOURCE_ROOT; };
 		C3458B800D69909A0056C214 /* InventoryBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = InventoryBackground.jpg; path = Resources/InventoryBackground.jpg; sourceTree = "<group>"; };
 		C3458B870D6A0B690056C214 /* GHItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHItem.h; sourceTree = "<group>"; };
 		C3458B880D6A0B690056C214 /* GHItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHItem.mm; sourceTree = "<group>"; };
@@ -110,17 +111,14 @@
 		C37713C30D6D0738004DC552 /* NSData+Values.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSData+Values.mm"; sourceTree = "<group>"; };
 		C37715260D6D4248004DC552 /* GHItem+Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHItem+Names.h"; sourceTree = "<group>"; };
 		C37715270D6D4248004DC552 /* GHItem+Names.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GHItem+Names.m"; sourceTree = "<group>"; };
-		C37715770D6D4D4D004DC552 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../Goblin Hacker/English.lproj/GHItemEditor.xib"; sourceTree = SOURCE_ROOT; };
 		C37715CD0D6D617A004DC552 /* StatesEditorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatesEditorIcon.png; path = Resources/Icons/StatesEditorIcon.png; sourceTree = "<group>"; };
 		C37715CF0D6D62E4004DC552 /* Reload.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Reload.tiff; path = Resources/Icons/Reload.tiff; sourceTree = "<group>"; };
 		C37715D00D6D62E4004DC552 /* Save.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Save.tiff; path = Resources/Icons/Save.tiff; sourceTree = "<group>"; };
 		C37715D10D6D62E4004DC552 /* Debug.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Debug.tiff; path = Resources/Icons/Debug.tiff; sourceTree = "<group>"; };
 		C37715D50D6D63C6004DC552 /* CharacterEditorIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = CharacterEditorIcon.tiff; path = Resources/Icons/CharacterEditorIcon.tiff; sourceTree = "<group>"; };
 		C37716330D6D783D004DC552 /* Gradient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Gradient.pdf; path = Resources/Gradient.pdf; sourceTree = "<group>"; };
-		C389534E0D696E890089C07A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../Goblin Hacker/English.lproj/GHSpellsEditor.xib"; sourceTree = SOURCE_ROOT; };
 		C38953510D696EFA0089C07A /* GHEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHEditorController.h; sourceTree = "<group>"; };
 		C38953520D696EFA0089C07A /* GHEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHEditorController.m; sourceTree = "<group>"; };
-		C38953DA0D69791F0089C07A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../Goblin Hacker/English.lproj/GHSkillsEditor.xib"; sourceTree = SOURCE_ROOT; };
 		C3DD420E0D4FAEC50067F3AD /* item.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = item.plist; path = Resources/item.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,24 +206,10 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3373ACF0D6FACDE0053EE4D /* Images */,
+				C3373AB70D6FACAD0053EE4D /* User Interface */,
+				C3373AB60D6FAC8E0053EE4D /* Data */,
 				C37715C20D6D6067004DC552 /* Icons */,
-				C3458B800D69909A0056C214 /* InventoryBackground.jpg */,
-				C33D5EFC0D418C7A00C7743C /* MainMenu.xib */,
-				C33D61BB0D4573C400C7743C /* GHSavedGameDocument.xib */,
-				C389534D0D696E890089C07A /* GHSpellsEditor.xib */,
-				C38953D90D69791F0089C07A /* GHSkillsEditor.xib */,
-				C3458B1B0D6983980056C214 /* GHCharacterEditor.xib */,
-				C3458B4D0D698A4D0056C214 /* GHStatesEditor.xib */,
-				C3458B5B0D698B8E0056C214 /* GHInventoryEditor.xib */,
-				C37715760D6D4D4D004DC552 /* GHItemEditor.xib */,
-				C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */,
-				C37716330D6D783D004DC552 /* Gradient.pdf */,
-				C3DD420E0D4FAEC50067F3AD /* item.plist */,
-				C33D5EF80D418AF300C7743C /* levels.plist */,
-				C3307C930D18A8600062A870 /* skills.plist */,
-				C33D61740D45666100C7743C /* states.plist */,
-				C33D61750D45666100C7743C /* spells.plist */,
-				C3307E690D19069B0062A870 /* InventoryBackground.jpg */,
 				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
@@ -240,6 +224,43 @@
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3373AB60D6FAC8E0053EE4D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C3DD420E0D4FAEC50067F3AD /* item.plist */,
+				C33D5EF80D418AF300C7743C /* levels.plist */,
+				C3307C930D18A8600062A870 /* skills.plist */,
+				C33D61740D45666100C7743C /* states.plist */,
+				C33D61750D45666100C7743C /* spells.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		C3373AB70D6FACAD0053EE4D /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C33D5EFC0D418C7A00C7743C /* MainMenu.xib */,
+				C33D61BB0D4573C400C7743C /* GHSavedGameDocument.xib */,
+				C3373ABD0D6FACC90053EE4D /* GHInventoryEditor.xib */,
+				C3373ABF0D6FACC90053EE4D /* GHCharacterEditor.xib */,
+				C3373AC10D6FACC90053EE4D /* GHItemEditor.xib */,
+				C3373AC30D6FACC90053EE4D /* GHSkillsEditor.xib */,
+				C3373AC50D6FACC90053EE4D /* GHSpellsEditor.xib */,
+				C3373AC70D6FACC90053EE4D /* GHStatesEditor.xib */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		C3373ACF0D6FACDE0053EE4D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3458B800D69909A0056C214 /* InventoryBackground.jpg */,
+				C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */,
+				C37716330D6D783D004DC552 /* Gradient.pdf */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		C3458B860D6A0B3C0056C214 /* Data Structures */ = {
@@ -336,7 +357,6 @@
 				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				C3307C940D18A8600062A870 /* skills.plist in Resources */,
-				C3307E6A0D19069B0062A870 /* InventoryBackground.jpg in Resources */,
 				C3307F9F0D19CEBE0062A870 /* GoblinHackerIcon.icns in Resources */,
 				C33D5EF90D418AF300C7743C /* levels.plist in Resources */,
 				C33D5EFE0D418C7A00C7743C /* MainMenu.xib in Resources */,
@@ -344,13 +364,7 @@
 				C33D61770D45666100C7743C /* spells.plist in Resources */,
 				C33D61BC0D4573C400C7743C /* GHSavedGameDocument.xib in Resources */,
 				C3DD420F0D4FAEC50067F3AD /* item.plist in Resources */,
-				C389534F0D696E890089C07A /* GHSpellsEditor.xib in Resources */,
-				C38953DB0D69791F0089C07A /* GHSkillsEditor.xib in Resources */,
-				C3458B1D0D6983980056C214 /* GHCharacterEditor.xib in Resources */,
-				C3458B4F0D698A4D0056C214 /* GHStatesEditor.xib in Resources */,
-				C3458B5D0D698B8E0056C214 /* GHInventoryEditor.xib in Resources */,
 				C3458B810D69909A0056C214 /* InventoryBackground.jpg in Resources */,
-				C37715780D6D4D4D004DC552 /* GHItemEditor.xib in Resources */,
 				C37715CE0D6D617A004DC552 /* StatesEditorIcon.png in Resources */,
 				C37715D20D6D62E4004DC552 /* Reload.tiff in Resources */,
 				C37715D30D6D62E4004DC552 /* Save.tiff in Resources */,
@@ -361,6 +375,12 @@
 				C3373A820D6F9C630053EE4D /* SpellsEditorIcon.icns in Resources */,
 				C3373A860D6FA0D10053EE4D /* InventoryEditorIcon.icns in Resources */,
 				C3373A890D6FA43F0053EE4D /* SkillsEditorIcon.icns in Resources */,
+				C3373AC90D6FACC90053EE4D /* GHInventoryEditor.xib in Resources */,
+				C3373ACA0D6FACC90053EE4D /* GHCharacterEditor.xib in Resources */,
+				C3373ACB0D6FACC90053EE4D /* GHItemEditor.xib in Resources */,
+				C3373ACC0D6FACC90053EE4D /* GHSkillsEditor.xib in Resources */,
+				C3373ACD0D6FACC90053EE4D /* GHSpellsEditor.xib in Resources */,
+				C3373ACE0D6FACC90053EE4D /* GHStatesEditor.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,54 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
+		C3373ABD0D6FACC90053EE4D /* GHInventoryEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3373ABE0D6FACC90053EE4D /* English */,
+			);
+			name = GHInventoryEditor.xib;
+			sourceTree = "<group>";
+		};
+		C3373ABF0D6FACC90053EE4D /* GHCharacterEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3373AC00D6FACC90053EE4D /* English */,
+			);
+			name = GHCharacterEditor.xib;
+			sourceTree = "<group>";
+		};
+		C3373AC10D6FACC90053EE4D /* GHItemEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3373AC20D6FACC90053EE4D /* English */,
+			);
+			name = GHItemEditor.xib;
+			sourceTree = "<group>";
+		};
+		C3373AC30D6FACC90053EE4D /* GHSkillsEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3373AC40D6FACC90053EE4D /* English */,
+			);
+			name = GHSkillsEditor.xib;
+			sourceTree = "<group>";
+		};
+		C3373AC50D6FACC90053EE4D /* GHSpellsEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3373AC60D6FACC90053EE4D /* English */,
+			);
+			name = GHSpellsEditor.xib;
+			sourceTree = "<group>";
+		};
+		C3373AC70D6FACC90053EE4D /* GHStatesEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3373AC80D6FACC90053EE4D /* English */,
+			);
+			name = GHStatesEditor.xib;
+			sourceTree = "<group>";
+		};
 		C33D5EFC0D418C7A00C7743C /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -423,54 +491,6 @@
 				C33D61780D4566A100C7743C /* English */,
 			);
 			name = GHSavedGameDocument.xib;
-			sourceTree = "<group>";
-		};
-		C3458B1B0D6983980056C214 /* GHCharacterEditor.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3458B1C0D6983980056C214 /* English */,
-			);
-			name = GHCharacterEditor.xib;
-			sourceTree = "<group>";
-		};
-		C3458B4D0D698A4D0056C214 /* GHStatesEditor.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3458B4E0D698A4D0056C214 /* English */,
-			);
-			name = GHStatesEditor.xib;
-			sourceTree = "<group>";
-		};
-		C3458B5B0D698B8E0056C214 /* GHInventoryEditor.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3458B5C0D698B8E0056C214 /* English */,
-			);
-			name = GHInventoryEditor.xib;
-			sourceTree = "<group>";
-		};
-		C37715760D6D4D4D004DC552 /* GHItemEditor.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C37715770D6D4D4D004DC552 /* English */,
-			);
-			name = GHItemEditor.xib;
-			sourceTree = "<group>";
-		};
-		C389534D0D696E890089C07A /* GHSpellsEditor.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C389534E0D696E890089C07A /* English */,
-			);
-			name = GHSpellsEditor.xib;
-			sourceTree = "<group>";
-		};
-		C38953D90D69791F0089C07A /* GHSkillsEditor.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C38953DA0D69791F0089C07A /* English */,
-			);
-			name = GHSkillsEditor.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

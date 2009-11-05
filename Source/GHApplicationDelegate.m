@@ -59,8 +59,8 @@
 				charPath, @"path",
 				fileName, @"fileName",
 				[details objectAtIndex:0], @"name",
-				[details objectAtIndex:1], @"date",
-				[details objectAtIndex:2], @"time",
+				[details objectAtIndex:2], @"date",
+				[details objectAtIndex:4], @"time",
 				nil];
 			
 			[games addObject:props];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E7519EE0DAB13350070E9F6 /* COPYING.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E7519ED0DAB13350070E9F6 /* COPYING.txt */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC310486D014006FF6A4 /* GHSavedGameDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* GHSavedGameDocument.m */; settings = {ATTRIBUTES = (); }; };
@@ -63,30 +64,31 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32DBCF750370BD2300C91783 /* Goblin Hacker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Goblin Hacker_Prefix.pch"; sourceTree = "<group>"; };
+		32DBCF750370BD2300C91783 /* GHPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPrefix.pch; sourceTree = "<group>"; };
+		7E7519ED0DAB13350070E9F6 /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Goblin Hacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goblin Hacker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3307C900D18A6A90062A870 /* GHSkillsEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkillsEditor.h; sourceTree = "<group>"; };
 		C3307C910D18A6A90062A870 /* GHSkillsEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSkillsEditor.m; sourceTree = "<group>"; };
-		C3307C930D18A8600062A870 /* skills.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = skills.plist; path = Resources/skills.plist; sourceTree = "<group>"; };
+		C3307C930D18A8600062A870 /* skills.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = skills.plist; sourceTree = "<group>"; };
 		C3307CF40D18C4110062A870 /* GHCharacterEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCharacterEditor.h; sourceTree = "<group>"; };
 		C3307CF50D18C4110062A870 /* GHCharacterEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCharacterEditor.m; sourceTree = "<group>"; };
 		C3307CF70D18C4210062A870 /* GHInventoryEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHInventoryEditor.h; sourceTree = "<group>"; };
 		C3307DD80D18E3D10062A870 /* Endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endian.h; sourceTree = "<group>"; };
 		C3307E6F0D1920F10062A870 /* GHApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHApplicationDelegate.h; sourceTree = "<group>"; };
 		C3307E700D1920F10062A870 /* GHApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHApplicationDelegate.m; sourceTree = "<group>"; };
-		C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = GoblinHackerIcon.icns; path = Resources/GoblinHackerIcon.icns; sourceTree = "<group>"; };
-		C3373A7E0D6F96C80053EE4D /* ItemEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = ItemEditorIcon.icns; path = Resources/Icons/ItemEditorIcon.icns; sourceTree = "<group>"; };
-		C3373A810D6F9C630053EE4D /* SpellsEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SpellsEditorIcon.icns; path = Resources/Icons/SpellsEditorIcon.icns; sourceTree = "<group>"; };
-		C3373A850D6FA0D10053EE4D /* InventoryEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = InventoryEditorIcon.icns; path = Resources/Icons/InventoryEditorIcon.icns; sourceTree = "<group>"; };
-		C3373A880D6FA43F0053EE4D /* SkillsEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SkillsEditorIcon.icns; path = Resources/Icons/SkillsEditorIcon.icns; sourceTree = "<group>"; };
+		C3307F9E0D19CEBE0062A870 /* GoblinHackerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GoblinHackerIcon.icns; sourceTree = "<group>"; };
+		C3373A7E0D6F96C80053EE4D /* ItemEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = ItemEditorIcon.icns; path = Icons/ItemEditorIcon.icns; sourceTree = "<group>"; };
+		C3373A810D6F9C630053EE4D /* SpellsEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SpellsEditorIcon.icns; path = Icons/SpellsEditorIcon.icns; sourceTree = "<group>"; };
+		C3373A850D6FA0D10053EE4D /* InventoryEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = InventoryEditorIcon.icns; path = Icons/InventoryEditorIcon.icns; sourceTree = "<group>"; };
+		C3373A880D6FA43F0053EE4D /* SkillsEditorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SkillsEditorIcon.icns; path = Icons/SkillsEditorIcon.icns; sourceTree = "<group>"; };
 		C3373ABE0D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHInventoryEditor.xib; sourceTree = "<group>"; };
 		C3373AC00D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHCharacterEditor.xib; sourceTree = "<group>"; };
 		C3373AC20D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHItemEditor.xib; sourceTree = "<group>"; };
 		C3373AC40D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSkillsEditor.xib; sourceTree = "<group>"; };
 		C3373AC60D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSpellsEditor.xib; sourceTree = "<group>"; };
 		C3373AC80D6FACC90053EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHStatesEditor.xib; sourceTree = "<group>"; };
-		C33D5EF80D418AF300C7743C /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = levels.plist; path = Resources/levels.plist; sourceTree = "<group>"; };
+		C33D5EF80D418AF300C7743C /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = levels.plist; sourceTree = "<group>"; };
 		C33D5EFD0D418C7A00C7743C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C33D5F450D421B0E00C7743C /* SWDataToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDataToString.h; sourceTree = "<group>"; };
 		C33D5F460D421B0E00C7743C /* SWDataToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDataToString.m; sourceTree = "<group>"; };
@@ -94,10 +96,10 @@
 		C33D616F0D45661000C7743C /* GHSpellsEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSpellsEditor.h; sourceTree = "<group>"; };
 		C33D61710D45665500C7743C /* GHStatesEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHStatesEditor.h; sourceTree = "<group>"; };
 		C33D61720D45665500C7743C /* GHStatesEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHStatesEditor.m; sourceTree = "<group>"; };
-		C33D61740D45666100C7743C /* states.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = states.plist; path = Resources/states.plist; sourceTree = "<group>"; };
-		C33D61750D45666100C7743C /* spells.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = spells.plist; path = Resources/spells.plist; sourceTree = "<group>"; };
+		C33D61740D45666100C7743C /* states.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = states.plist; sourceTree = "<group>"; };
+		C33D61750D45666100C7743C /* spells.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spells.plist; sourceTree = "<group>"; };
 		C33D61780D4566A100C7743C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GHSavedGameDocument.xib; sourceTree = "<group>"; };
-		C3458B800D69909A0056C214 /* InventoryBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = InventoryBackground.jpg; path = Resources/InventoryBackground.jpg; sourceTree = "<group>"; };
+		C3458B800D69909A0056C214 /* InventoryBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InventoryBackground.jpg; sourceTree = "<group>"; };
 		C3458B870D6A0B690056C214 /* GHItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHItem.h; sourceTree = "<group>"; };
 		C3458B880D6A0B690056C214 /* GHItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHItem.mm; sourceTree = "<group>"; };
 		C3458BDB0D6A9C770056C214 /* GHSavedGameDocument+Slots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHSavedGameDocument+Slots.h"; sourceTree = "<group>"; };
@@ -111,15 +113,15 @@
 		C37713C30D6D0738004DC552 /* NSData+Values.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSData+Values.mm"; sourceTree = "<group>"; };
 		C37715260D6D4248004DC552 /* GHItem+Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHItem+Names.h"; sourceTree = "<group>"; };
 		C37715270D6D4248004DC552 /* GHItem+Names.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GHItem+Names.m"; sourceTree = "<group>"; };
-		C37715CD0D6D617A004DC552 /* StatesEditorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatesEditorIcon.png; path = Resources/Icons/StatesEditorIcon.png; sourceTree = "<group>"; };
-		C37715CF0D6D62E4004DC552 /* Reload.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Reload.tiff; path = Resources/Icons/Reload.tiff; sourceTree = "<group>"; };
-		C37715D00D6D62E4004DC552 /* Save.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Save.tiff; path = Resources/Icons/Save.tiff; sourceTree = "<group>"; };
-		C37715D10D6D62E4004DC552 /* Debug.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Debug.tiff; path = Resources/Icons/Debug.tiff; sourceTree = "<group>"; };
-		C37715D50D6D63C6004DC552 /* CharacterEditorIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = CharacterEditorIcon.tiff; path = Resources/Icons/CharacterEditorIcon.tiff; sourceTree = "<group>"; };
-		C37716330D6D783D004DC552 /* Gradient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Gradient.pdf; path = Resources/Gradient.pdf; sourceTree = "<group>"; };
+		C37715CD0D6D617A004DC552 /* StatesEditorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatesEditorIcon.png; path = Icons/StatesEditorIcon.png; sourceTree = "<group>"; };
+		C37715CF0D6D62E4004DC552 /* Reload.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Reload.tiff; path = Icons/Reload.tiff; sourceTree = "<group>"; };
+		C37715D00D6D62E4004DC552 /* Save.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Save.tiff; path = Icons/Save.tiff; sourceTree = "<group>"; };
+		C37715D10D6D62E4004DC552 /* Debug.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Debug.tiff; path = Icons/Debug.tiff; sourceTree = "<group>"; };
+		C37715D50D6D63C6004DC552 /* CharacterEditorIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = CharacterEditorIcon.tiff; path = Icons/CharacterEditorIcon.tiff; sourceTree = "<group>"; };
+		C37716330D6D783D004DC552 /* Gradient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gradient.pdf; sourceTree = "<group>"; };
 		C38953510D696EFA0089C07A /* GHEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHEditorController.h; sourceTree = "<group>"; };
 		C38953520D696EFA0089C07A /* GHEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHEditorController.m; sourceTree = "<group>"; };
-		C3DD420E0D4FAEC50067F3AD /* item.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = item.plist; path = Resources/item.plist; sourceTree = "<group>"; };
+		C3DD420E0D4FAEC50067F3AD /* item.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = item.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +165,8 @@
 		2A37F4AAFDCFA73011CA2CEA /* Goblin Hacker */ = {
 			isa = PBXGroup;
 			children = (
-				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				7E7519EC0DAB13230070E9F6 /* Documentation */,
+				2A37F4ABFDCFA73011CA2CEA /* Source */,
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
@@ -172,7 +175,7 @@
 			name = "Goblin Hacker";
 			sourceTree = "<group>";
 		};
-		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+		2A37F4ABFDCFA73011CA2CEA /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				C3458B860D6A0B3C0056C214 /* Data Structures */,
@@ -186,14 +189,14 @@
 				C3307E6F0D1920F10062A870 /* GHApplicationDelegate.h */,
 				C3307E700D1920F10062A870 /* GHApplicationDelegate.m */,
 			);
-			name = Classes;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
 				C3307DD80D18E3D10062A870 /* Endian.h */,
-				32DBCF750370BD2300C91783 /* Goblin Hacker_Prefix.pch */,
+				32DBCF750370BD2300C91783 /* GHPrefix.pch */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
 				C33D5F450D421B0E00C7743C /* SWDataToString.h */,
 				C33D5F460D421B0E00C7743C /* SWDataToString.m */,
@@ -201,6 +204,7 @@
 				C37713C30D6D0738004DC552 /* NSData+Values.mm */,
 			);
 			name = "Other Sources";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
@@ -214,7 +218,7 @@
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
@@ -224,6 +228,14 @@
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7519EC0DAB13230070E9F6 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				7E7519ED0DAB13350070E9F6 /* COPYING.txt */,
+			);
+			name = Documentation;
 			sourceTree = "<group>";
 		};
 		C3373AB60D6FAC8E0053EE4D /* Data */ = {
@@ -381,6 +393,7 @@
 				C3373ACC0D6FACC90053EE4D /* GHSkillsEditor.xib in Resources */,
 				C3373ACD0D6FACC90053EE4D /* GHSpellsEditor.xib in Resources */,
 				C3373ACE0D6FACC90053EE4D /* GHStatesEditor.xib in Resources */,
+				7E7519EE0DAB13350070E9F6 /* COPYING.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,13 +513,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Goblin Hacker_Prefix.pch";
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = Source/GHPrefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "Goblin Hacker";
 				WRAPPER_EXTENSION = app;
@@ -517,11 +534,14 @@
 		C05733C908A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Goblin Hacker_Prefix.pch";
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = Source/GHPrefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "Goblin Hacker";
 				WRAPPER_EXTENSION = app;
